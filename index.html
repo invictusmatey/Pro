@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="Javas.js"></script>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#registration">Registration</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form name="loginForm" onsubmit="return validateForm()">
+            <label for="uname">Username</label>
+            <input type="text" placeholder="Enter username" name="uname" required>
+         
+            <label for="pass">Password</label>
+            <input type="password" placeholder="Enter password" name="pass" required>
+            
+            <div class="buttons">
+                <button type="submit" class="login">Login</button>
+                <button type="button" class="signup">Signup</button>
+                <button type="reset" class="reset">Reset</button>
+            </div>  
+        </form>
+    </div>
+</body>
+</html>
+

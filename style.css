@@ -1,0 +1,106 @@
+body {
+    background-image: url('back.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 7.5); 
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.container {
+    width: 387px;
+    margin: 126px auto;
+    padding: 57px;
+    border: 1px solid #ccc;
+    border-radius: 142px;
+    background-color: rgb(122 0 60 / 80%);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #ff8c00; /* Orange */
+    outline: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.login {
+    background-color: #00cc66; /* Green */
+    color: white;
+}
+
+.login:hover {
+    background-color: #00994d; /* Darker Green */
+}
+
+.signup {
+    background-color: #ff3399; /* Pink */
+    color: white;
+}
+
+.signup:hover {
+    background-color: #cc0066; /* Darker Pink */
+}
+
+.reset {
+    background-color: #3366ff; /* Blue */
+    color: white;
+}
+
+.reset:hover {
+    background-color: #1a53ff; /* Darker Blue */
+}
